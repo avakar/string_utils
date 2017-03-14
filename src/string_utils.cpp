@@ -1,4 +1,5 @@
 #include <string_utils.hpp>
+#include <string.h>
 
 std::vector<std::string> split(std::string_view str, char sep)
 {
